@@ -52,7 +52,7 @@ usethis::use_package(package = "tidyverse")
 # Call `usethis::use_package("tidyverse", type = "depends")` to achieve this.
 usethis::use_package(package = "tidyverse", type = "depends")
 # Adding 'tidyverse' to Depends field in DESCRIPTION
-# - Ar you sure you want Depends? Imports is almost always the better choice.
+# - Are you sure you want Depends? Imports is almost always the better choice.
 
 
 ## 8.2 R ----
@@ -68,7 +68,7 @@ usethis::use_package(package = "tidyverse", type = "depends")
 # Do not source the file
 # Restart R with Ctrl + Shift + F10 in RStudio
 # Run devtools::load_all() again, you can use the shortcut
-# Ctrl + Sift + L in RStudio.
+# Ctrl + Shift + L in RStudio.
 devtools::load_all()
 
 # Check that you can run hi() in the console:
